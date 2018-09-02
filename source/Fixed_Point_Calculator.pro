@@ -35,6 +35,7 @@ FORMS += \
         mainwindow.ui
 
 RC_ICONS = fxc_icon_128.ico
+ICON = fxc_icon_1024.icns
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

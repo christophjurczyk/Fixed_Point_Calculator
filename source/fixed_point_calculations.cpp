@@ -34,10 +34,10 @@ fxp_info fxp_getFixedPoint(int range_min, int range_max, double input_value, uns
     int range_max_abs_value;
     if(result.value_signed){
         // signed
-        if(range_max > abs(range_min)){
+        if(range_max > std::fabs(range_min)){
             range_max_abs_value = range_max;
         }else{
-            range_max_abs_value = abs(range_min);
+            range_max_abs_value = std::fabs(range_min);
         }
 
     }else{
