@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 
-#define version_string "v1.0"
+#define version_string "v1.1"
 
 namespace Ui {
 class MainWindow;
